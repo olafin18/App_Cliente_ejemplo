@@ -1,8 +1,6 @@
-﻿
-Module modMain
-
+﻿Module modMain
     Sub Main()
-        Dim objCOMPlus As New FRAME_4_7_2.COMPlusServices()
+        Dim objCOMPlus As New ClassLibrary.COMPlusServices()
 
         Console.WriteLine(objCOMPlus.DoTransaction())
         Console.ReadLine()
